@@ -2,6 +2,7 @@
 # Projeto Consulta CEP 📬
 
 ### Venho aqui compartilhar este projeto que eu fiz para por em prática conceitos de requisição em api's, processos síncronos e assíncronos.
+*Link do projeto:* https://projeto-consulta-cep.vercel.app/
 
 - **JavaScript**
   - Neste projeto utilizei a api via cep e escolhi tratar a informação devolvida pela api, a            response, com o método async/await
