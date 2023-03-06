@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/img/marcador.png">
+    <title>Consulta CEP</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <form class="box">
+        <h1 class="titulo">Consulta CEP</h1>
+        <input data-entrada="entrada cep" class="box__entrada input" type="number" placeholder="Digite ex:00000000">
+        <input data-dado="dados" class="box__logradouro input" type="text" placeholder="logradouro">
+        <input data-dado="dados" class="box__bairro input" type="text" placeholder="bairro">
+        <input data-dado="dados" class="box__localidade input" type="text" placeholder="localidade">
+        <input data-dado="dados" class="box__uf input" type="text" placeholder="estado">
+        <button class="botao">Enviar</button>
+        <p data-dado="dados" class="aviso-erro"></p>
+    </form>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
